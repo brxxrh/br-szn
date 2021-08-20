@@ -1,0 +1,15 @@
+table ,caption{
+    border: 5px solid  black;
+    border-collapse: collapse;
+    /* border-spacing: 1em 2em; */
+}
+td{
+    border: 5px solid black;
+    padding: 1em;
+}
+tfoot{
+    text-align: center;
+}
+caption{
+    margin-bottom: 0.5em;
+}

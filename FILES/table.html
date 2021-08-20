@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Reading timetable </title>
+    <style>
+        tbody{
+            background:-webkit-linear-gradient(50deg, grey, whitesmoke);
+
+        }
+        thead, tfoot, caption{
+            background: linear-gradient(50deg, grey, whitesmoke);
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Readers are leaders</caption>
+        <thead>
+            <tr>
+                <th>days/time</th>
+                <th>morning</th>
+                <th>afternoon</th>
+                <th>evening</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>monday</td>
+                <td rowspan="2">Lightening Thief</td>
+                <td>Battle of the Labyrinth</td>
+                <td>Tower of Nero</td>
+            </tr>
+            <tr>
+                <td>tuesday</td>
+                <!-- <td>Lightening Thief</td> -->
+                <td>Last Olympian</td>
+                <td>Son of Neptune</td>
+            </tr>
+            <tr>
+                <td>wednesday</td>
+                <td colspan="2">Son of Neptune</td>
+                <!-- <td>Son of Neptune</td> -->
+                <td>Sword of summer</td>
+            </tr>
+            <tr>
+                <td>thursday</td>
+                <td>sea of Monsters</td>
+                <td>house of hades</td>
+                <td>Titans Curse</td>
+            </tr>
+            <tr>
+                <td>friday</td>
+                <td>The Lost Hero</td>
+                <td>sea of Monsters</td>
+                <td>The Hidden Oracle</td>
+            </tr>
+            <tr>
+                <td>saturday</td>
+                <td>House of Hades</td>
+                <td>Ship Of the Dead </td>
+                <td>The Dark Prophecy</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">reading plan for the month of august</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

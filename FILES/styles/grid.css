@@ -1,0 +1,7 @@
+main{
+    display: grid;
+    grid-template-columns: repeat (3 1fr);
+}
+section{
+    border: 5px solid black;
+}

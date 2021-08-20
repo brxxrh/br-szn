@@ -1,0 +1,65 @@
+body{
+background-color: whitesmoke;
+max-width: 75%;
+margin-left: 10em;
+/* border: 5px solid black; */
+
+}
+
+label{
+    text-transform: capitalize;
+}
+.pi input{
+    display: block;
+    width: 90%;
+    border-radius: 10px;
+    padding: 0.7em 0.4em;
+    outline: none;
+    background-color: rgb(250, 242, 242);
+    border: none;
+}
+.ms input{
+    margin-right: 20px;
+}
+.pi div{
+    display: inline-block;
+    width: 40%;
+}
+legend{
+    text-align: center;
+    text-transform: uppercase;
+}
+.pi input:focus{
+    box-shadow: -4px 5px 15px gray;
+}
+form > div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 10px;
+}
+form > div input{
+    padding: 0.6em 1em;
+    font-size: 24px;
+    border-radius: 20px;
+    background-color: rgb(250, 242, 242);
+    
+}
+h2{
+    border: 1px solid black;
+    height: 60px;
+    text-align: center;
+    background-color: rgb(250, 242, 242);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(75, 71, 71, 0.726);
+    margin-top: auto;
+   
+}
+form > div input:hover{
+    color:blue;
+    background-color: rgb(250, 242, 242);
+}
+form, form> div{
+    box-shadow: -4px 5px 15px gray
+}
+   

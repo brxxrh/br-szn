@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./form.css">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <h2>Sign Up Application</h2>
+        <fieldset class="pi">
+            <legend>Personal Information</legend>
+            <div>
+                <label for="firstname">firstname</label>
+                <input type="text" name="firstname" id="firstname" autofocus>
+            </div>
+            <div>
+                <label for="surname">surname</label>
+                <input type="text" name="surname" id="surname" required>
+            </div>
+            <div>
+                <label for="phone">phone number</label>
+
+                <span>
+                <input type="text" name="phone" id="phone" required>
+                <i class="bi bi-telephone"></i>
+                </span>
+            </div>
+            <div>
+                <label for="DOB">date of birth</label>
+                <input type="date" name="dob" id="">
+            </div>
+            <div>
+                <label for="email">email address</label>
+                <input type="email" name="email" id="email" placeholder="example@email.com" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>gender</legend>
+            <label for="male">male</label>
+            <input type="radio" name="gender" id="male" checked>
+
+            <label for="female">female</label>
+            <input type="radio" name="gender" id="female">
+        </fieldset>
+        <fieldset class="ms">
+            <legend>marital status</legend>
+            <label for="single">single</label>
+            <input type="radio" name="marital" id="single" checked>
+
+            <label for="married">married</label>
+            <input type="radio" name="marital" id="married">
+
+            <label for="divorced">divorced</label>
+            <input type="radio" name="marital" id="divorced">
+
+            <label for="widowed">widowed</label>
+            <input type="radio" name="marital" id="widowed">
+        </fieldset>
+
+        <fieldset>
+            <legend>state of origin</legend>
+
+            <select>
+                <option value="sel">select your state</option>
+                <optgroup label="south south">
+                    <option value="ss">akwa ibom</option>
+                    <option value="ss">bayelsa</option>
+                    <option value="ss">cross rivers</option>
+                    <option value="ss">delta</option>
+                    <option value="ss">rivers</option>
+
+                </optgroup>
+                <optgroup label="south east">
+                    <option value="se">imo</option>
+                    <option value="se">ebonyi</option>
+                    <option value="se">enugu</option>
+                    <option value="se">anambra</option>
+                    <option value="se">abia</option>
+                </optgroup>    
+
+                <optgroup label="north central">
+                    <option value="nc">niger</option>
+                    <option value="nc">kogi</option>
+                    <option value="nc">benue</option>
+                    <option value="nc">plateu</option>
+                    <option value="nc">nasarawa</option>
+                    <option value="nc">kwara</option>
+                    <option value="nc">fct</option>
+                </optgroup>
+                 
+                <optgroup label="north east">
+                    <option value="ne">adamawa</option>
+                    <option value="ne">bauchi</option>
+                    <option value="ne">borno</option>
+                    <option value="ne">gombe</option>
+                    <option value="ne">taraba</option>
+                    <option value="ne">yobe</option>
+                </optgroup>
+
+                <optgroup label="north west">
+                    <option value="nw">jigawa</option>
+                    <option value="nw">kano</option>
+                    <option value="nw">katsina</option>
+                    <option value="nw">kebbi</option>
+                    <option value="nw">sokoto</option>
+                    <option value="nw">zamfara</option>
+                    <option value="nw">kaduna</option>
+                </optgroup>
+
+                <optgroup label="south west">
+                    <option value="sw">oyo</option>
+                    <option value="sw">lagos</option>
+                    <option value="sw">osun</option>
+                    <option value="sw">ondo</option>
+                    <option value="sw">ogun</option>
+                    <option value="sw">ekiti</option>
+
+                </optgroup>
+                
+                
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend> educational qualification</legend>
+            <input type="checkbox" name="edu" id="pri">
+            <label for="pri">primary school</label><br>
+
+            <input type="checkbox" name="edu" id="sec">
+            <label for="sec">secondary school</label><br>
+
+            <input type="checkbox" name="edu" id="col">
+            <label for="col">college</label><br>
+
+            <input type="checkbox" name="edu" id="pdg">
+            <label for="pdg">post graduate degree</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>sign-in options</legend>
+
+            <label for="username">username</label>
+            <input type="text" name="sign-in" id="username">
+
+            <label for="password">password</label>
+            <input type="password" name="sign-in" id="password"><br>
+
+            <input type="file" name="resume" id="resume" accept=".jpg ,.pdf">
+        </fieldset>
+        <div>
+            <input type="submit" value="send">
+            <input type="reset" value="reset">
+        </div>
+         
+       
+    </form>
+</body>
+</html>
